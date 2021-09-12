@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" /> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/logo.svg" class="nav-logo" alt="">
+      </div>
+      <ul class="nav-items desktop">
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+      </ul>
+      
+      <div class="mobile">
+        <i class="fas fa-bars"></i>
+        <ul class="mobile-nav">
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+    <div class="illustration-intro">
+      <img src="./images/illustration-intro.png" alt="" class="illustration">
+      <h1 class="main-heading center">All your files in one secure location, <br> accessible anywhere.</h1>
+      <p class="text-primary">Fylo stores all your most important files in one secure location. Access them wherever 
+        you need, share and collaborate with friends family, and co-workers.</p>
+      <a href="#" class="main-btn">get started</a>
+    </div>
+  </header>
+  
+  <section class="features">
+    <div class="features-columns">
+      <div class="feature">
+        <img src="./images/icon-access-anywhere.svg" alt="access your files anywhere" class="icon-img">
+        <h3 class="feature-heading center">Access your files, anywhere</h3>
+        <p class="features-text center">The ability to use a smartphone, tablet, or computer to access your account means your 
+          files follow you everywhere.</p>
+      </div>
+      <div class="feature">
+        <img src="./images/icon-security.svg" alt="access your files anywhere" class="icon-img">
+        <h3 class="feature-heading center">Security you can trust</h3>
+        <p class="features-text center">Securely share files and folders with friends, family and colleagues for live collaboration. 
+          No email attachments required..</p>
+      </div>
+      <div class="feature">
+        <img src="./images/icon-collaboration.svg" alt="access your files anywhere" class="icon-img">
+        <h3 class="feature-heading center">Real-time collaboration</h3>
+        <p class="features-text center">The ability to use a smartphone, tablet, or computer to access your account means your 
+          files follow you everywhere.</p>
+      </div>
+      <div class="feature">
+        <img src="./images/icon-any-file.svg" alt="access your files anywhere" class="icon-img">
+        <h3 class="feature-heading center">Store any type of file</h3>
+        <p class="features-text center">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+          file types to be securely stored and shared..</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="services py">
+    <div class="img-container">
+      <img src="./images/illustration-stay-productive.png" alt="" class="services-illustration">
+    </div>
+    <div class="service-details">
+      <h1 class="main-heading">Stay productive, <br> wherever you are</h1>
+      <p class="service-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+        storage needs.</p>
+      <p class="service-text">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+        attachments required.</p>
+      <a href="#" class="service-cta">See how Fylo works</a>
+    </div>
+  </section>
+
+  <section class="testimonials py">
+    <div class="testimony">
+      <p class="text-test">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+        become a well-oiled collaboration machine.</p>
+        <div class="profile">
+          <img class="profile-img" src="./images/profile-1.jpg" alt="">
+          <div class="profile-details">
+            <h4 class="profile-name">Satish Patel</h4>
+            <p class="profile-badge">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+    </div>
+    <div class="testimony">
+      <p class="text-test">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+        become a well-oiled collaboration machine.</p>
+        <div class="profile">
+          <img class="profile-img" src="./images/profile-2.jpg" alt="">
+          <div class="profile-details">
+            <h4 class="profile-name">Bruce McKenzie</h4>
+            <p class="profile-badge">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+    </div>
+    <div class="testimony">
+      <p class="text-test">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+        questions, our support team would be happy to help you.</p>
+        <div class="profile">
+          <img class="profile-img" src="./images/profile-3.jpg" alt="">
+          <div class="profile-details">
+            <h4 class="profile-name">Iva Boyd</h4>
+            <p class="profile-badge">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="news-letter py">
+    <div class="form-container">
+      <h1 class="main-heading">Get early access today</h1>
+      <p class="text-news-letter">it only takes a minutes to sign up a free tier is extremely generous. If you have any questions our support will be so happy to help you.</p>
+      <form class="form-news_letter">
+        <input type="text" class="input-form" placeholder="Your E-mail...">
+        <input type="submit" class="main-btn" value="Get Started For Free">
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer py">
+    <img src="./images/logo.svg" class="footer-logo" alt="">
+    <div class="footer-columns">
+      <div class="adress">
+        <img src="./images/icon-location.svg" alt="">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua
+      </div>
+      <div class="info">
+        <div class="phone">
+          <img src="./images/icon-phone.svg" alt="">
+          +1-543-123-4567
+        </div>
+        <div class="email">
+          <img src="./images/icon-email.svg" alt="">
+          example@fylo.com
+        </div>
+      </div>
+      <div class="footer-main-menu">
+        <a class="footer-link" href="#">About Us</a>
+        <a class="footer-link" href="#">Jobs</a>
+        <a class="footer-link" href="#">Press</a>
+        <a class="footer-link" href="#">Blog</a>
+      </div>
+      <div class="footer-privacy">
+        <a class="footer-link" href="#">Contact Us</a>
+        <a class="footer-link" href="#">Terms</a>
+        <a class="footer-link" href="#">Privacy</a>
+      </div>
+      <div class="social-icons">
+        <a href="#" class="icon">
+          <i class="fab fa-facebook-f"></i>
+        </a href="#">
+        <a href="#" class="icon">
+          <i class="fab fa-twitter"></i>
+        </a href="#">
+        <a href="#" class="icon">
+          <i class="fab fa-instagram"></i>
+        </a href="#">
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+  
+  
+
+  
+  
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>

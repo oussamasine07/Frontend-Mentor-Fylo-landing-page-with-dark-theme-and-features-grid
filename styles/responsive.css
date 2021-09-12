@@ -1,0 +1,192 @@
+@media (min-width: 319px) and (max-width: 480px) {
+  .py {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-heading {
+    font-weight: 700;
+    margin: 30px 0;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
+  .text-primary {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+  }
+  .header {
+    height: 120vh;
+    background: url("../images/bg-curvy-mobile.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-color: #1c2431;
+  }
+  .header .navbar {
+    width: 100%;
+    padding: 40px 25px 10px;
+  }
+  .header .navbar .logo {
+    width: 90px;
+    height: 30px;
+  }
+  .header .navbar .logo .nav-logo {
+    width: 100%;
+    height: 100%;
+  }
+  .header .navbar .desktop {
+    display: none;
+  }
+  .header .navbar .mobile {
+    display: block;
+  }
+  .header .navbar .mobile .fa-bars {
+    font-size: 25px;
+  }
+  .header .navbar .mobile .mobile-nav {
+    display: none;
+    width: 100%;
+    background: rgba(24, 31, 42, 0.8);
+    position: absolute;
+    left: 0;
+    top: 90%;
+  }
+  .header .navbar .mobile .mobile-nav .nav-item {
+    padding: 20px 15px;
+    border-bottom: #fff;
+    font-size: 18px;
+  }
+  .header .illustration-intro {
+    width: 90%;
+    padding: 25px 15px;
+  }
+  .header .illustration-intro .illustration {
+    width: 100%;
+  }
+  .header .illustration-intro .main-btn {
+    margin-top: 30px;
+  }
+  .features-columns {
+    width: 90%;
+    -ms-grid-columns: (100%)[1];
+        grid-template-columns: repeat(1, 100%);
+    grid-row-gap: none;
+  }
+  .features-columns .feature-heading {
+    font-size: 18px;
+    margin: 20px 0 10px;
+  }
+  .services {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services .img-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+  .services .img-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .services .service-details {
+    padding: 0;
+    margin-top: 40px;
+  }
+  .services .service-details .service-text {
+    font-size: .8em;
+  }
+  .services .service-details .service-cta {
+    font-size: .9em;
+  }
+  .testimonials {
+    border: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonials::before {
+    content: "";
+    width: 40px;
+    height: 50px;
+    top: 20px;
+    left: 30px;
+    z-index: -6;
+  }
+  .testimonials .testimony {
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    border: 1px solid lightblue;
+    margin-bottom: 15px;
+  }
+  .testimonials .testimony:last-child {
+    margin-bottom: 0;
+  }
+  .testimonials .testimony .text-test {
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .news-letter .form-container {
+    width: 90%;
+    padding: 15px;
+  }
+  .news-letter .form-container .main-heading {
+    margin: 0 0 20px;
+  }
+  .news-letter .form-container .form-news_letter {
+    margin-top: 30px;
+  }
+  .news-letter .form-container .form-news_letter .input-form {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: .8em;
+  }
+  .news-letter .form-container .form-news_letter .main-btn {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: .8em;
+  }
+  .footer {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .footer .footer-logo {
+    width: 40%;
+  }
+  .footer .footer-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer .footer-columns .adress,
+  .footer .footer-columns .info, .footer .footer-columns .footer-main-menu,
+  .footer .footer-columns .footer-privacy,
+  .footer .footer-columns .social-icons {
+    width: 100%;
+    padding: 10px;
+    font-size: .8em;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
