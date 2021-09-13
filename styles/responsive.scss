@@ -53,8 +53,13 @@ $Dark-Blue: hsl(219, 30%, 18%);
 
             .mobile { 
                 display: block;
-                .fa-bars {
+                .fa-bars, .fa-times {
                     font-size: 25px;
+                    transition: all .5s ease;
+                }
+                .fa-times {
+                    display: none;
+                    opacity: 0;
                 }
                 .mobile-nav {
                     display: none;
@@ -62,7 +67,9 @@ $Dark-Blue: hsl(219, 30%, 18%);
                     background: rgba(24, 31, 42, .8);
                     position: absolute;
                     left: 0;
-                    top: 90%;
+                    top: 40%;
+                    opacity: 0;
+                    transition: all .5s ease;
                     .nav-item {
                         padding: 20px 15px;
                         border-bottom: #fff;
